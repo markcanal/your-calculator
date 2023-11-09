@@ -1,4 +1,4 @@
-package core
+package com.example.yourcalculator.core
 
 import android.app.Application
 
