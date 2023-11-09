@@ -24,6 +24,7 @@ jobs:
           cache: gradle
       - name: Make gradlew executable
         run: chmod +x ./gradlew
+      - name: Check lint error
       - run: ./gradlew lint
       - uses: yutailang0119/action-android-lint@v3
         with:
