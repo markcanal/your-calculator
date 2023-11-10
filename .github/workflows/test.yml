@@ -11,9 +11,7 @@ on:
       - gradlew*
       
 jobs:
-
  build:
-   name: Publish Image
    runs-on: ubuntu-latest
    
    steps:
