@@ -23,7 +23,7 @@ jobs:
    - name: Make gradlew executable
      run: chmod +x ./gradlew
    - name: Check Lint Error
-     run: ./gradlew lint
+     run: ./gradlew lint --warning-mode all
    - name: Build with Gradle    
      run: ./gradlew build --warning-mode all
   
