@@ -3,7 +3,7 @@ name: Android CI
 on:
   pull_request:
     paths:
-      - .github/workflows/android-lint.yml
+      - .github/workflows/test.yml
       - '*/src/**'
       - gradle/**
       - '**.gradle'
